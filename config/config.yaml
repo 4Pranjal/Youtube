@@ -1,0 +1,13 @@
+paths:
+  data: "./data/"
+  embeddings: "./data/vector_index.faiss"
+  audio: "./data/audio.mp3"
+
+model:
+  embedding_model: "sentence-transformers/all-MiniLM-L6-v2"
+  transcription_model: "openai/whisper-base"
+
+parameters:
+  top_n: 1000
+  faiss_index: "IndexFlatL2"
+  k: 5

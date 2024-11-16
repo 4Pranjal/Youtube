@@ -1,0 +1,30 @@
+# Core libraries
+pandas==1.5.3
+numpy==1.23.5
+
+# Machine Learning/Deep Learning
+torch==2.0.1
+sentence-transformers==2.2.2
+transformers==4.35.0
+
+# Audio processing
+librosa==0.10.0.post2
+
+# YouTube video downloader
+yt-dlp==2023.10.07
+
+# Whisper transcription
+insanely-fast-whisper==0.1.7
+
+# Text preprocessing
+spacy==3.6.1
+
+# Vector database
+faiss-cpu==1.7.4
+
+# Web framework
+flask==3.0.0
+streamlit==1.26.0
+
+# Additional dependencies
+PyYAML==6.0.1
